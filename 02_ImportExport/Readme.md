@@ -1,4 +1,14 @@
-# 🚀 Node.js: Async & Concurrency
+# 📘 Node.js: `index.js` Behavior with `require`
+
+## 🔹 CommonJS (CJS – `require`)
+
+In **CommonJS**, when you use `require` with a **folder path**, Node.js resolves it in the following order:
+
+1. Looks for a `package.json` inside the folder → checks the `"main"` field.  
+2. If not found → defaults to `index.js` inside that folder.  
+
+
+# 📘 Node.js: Async & Concurrency
 
 ## 🔹 JavaScript & Node.js
 - **JavaScript** → Synchronous, single-threaded language.  
